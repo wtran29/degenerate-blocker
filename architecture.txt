@@ -1,0 +1,20 @@
+Program Architect
+
+Mac and Linux: /etc/hosts
+Windows: C:\Windows\System32\drivers\etc
+
+For Windows:
+1. Run Task Scheduler
+2. Create Task..
+3. Name task
+3a. Click check box Run with highest privileges
+3b. Configure for: "Your current OS"
+4. Click on Triggers tab
+4a. Begin the task: At startup
+5. Click on Actions tab
+5a. Click New...
+5b. Browse to path/of/pythonw.exe/file/
+5c. Input file name blocker.py in "Add arguments (optional)"
+5d. Input path/of/blocker.py/file in "Start in (optional)"
+6. Click on Conditions
+6a. Uncheck Start the task only if the computer is on AC power
